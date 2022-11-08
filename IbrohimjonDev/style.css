@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(31, 28, 28);
+}
+.navbar {
+    background: #111;
+    color: darkgrey;
+    width: 100%;
+}
+ .nav-item  .nav-link {
+   color:  #939393;
+   display: flex;
+
+}
+  .nav-link  {
+    padding-left: 2rem !important;
+    font-size: 20px;
+}
+.nav-item a.nav-link:hover{
+    color: #fff;
+}
+/* +++++++++++++++++++++++++++++++++++++++++ */
+.ul-nav  {
+    color: #fff;
+    text-decoration: none;
+    background: rgb(34, 32, 32);
+    height: 10vh;
+    
+}
+.icon-nav{
+    color: rgb(166, 160, 160);
+    text-decoration: none !important;
+    width: 15px;
+}
+.icon-nav i{
+    width: 1.5rem;
+    height: 15px;
+}
+.section1{
+    background: rgb(34, 32, 32);
+    border-bottom: 4px solid #44d62c;
+    width: 100%;
+}
+.ul-nav li{
+    padding-left: 22px;
+    font-size: 1.2rem;
+}
+.ul-na i{
+    font-size: 1rem;
+    font-size: large;
+}
+ul li .icon-nav i{
+    width: 2rem;
+}
+.ul-nav li a:hover{
+    color: #44d62c;
+}
+.text-sec{
+    height: 5vh;
+    background: #605f5f;
+}
+.text-sec h1{
+    font-size: 20px;
+    color: #fff;
+}
+.section2{
+    background: #111;
+    width: 100%;
+    height: 20vh;
+}
+.section-inner h1{
+    color: #44d62c;
+}
+.section-inner p{
+    color: #605f5f;
+    font-size: 23px;
+}
+.section3{
+    background: url(/images/razer-edge-1920x700-desktop-cat-banner.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 79vh;
+}
+.hamma-razer h4{
+    color: #fff;
+    font-size: 30px;
+}
+.hamma-razer h5{
+    color: #939393;
+}
+.hamma-razer h6 a{
+    color: #44d62c;
+}
+.section4{
+    background: #605f5f;
+    width: 100%;
+    height: 70vh;
+
+}
+.card-body{
+    border-bottom: 4px solid #44d62c;
+    background: #0e0e0e;
+}
+
+.card{
+    flex-wrap: wrap;
+   
+}
+.card h5{
+    color: #fff;
+}
+.card p{
+    color: #939393;
+}
+.card a{
+    bottom: 0;
+    color: #44d62c;
+}
+.section5{
+    background: url(/images/stay-in-sync-1920x700.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+}
+.rasm-nauw h1{
+color: #fff;
+}
+.rasm-nauw p{
+    color: #939393;
+    font-size: 23px;
+}
+.rasm-nauw a{
+    color: #44d62c;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.section7{
+    background: url(/images/gothe-extramile-category-1920x700-desktop.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 70vh;
+}
+.div1 ul li{
+    flex-direction: column;
+}
+footer{
+    background: #0b0a0a;
+    width: 100%;
+    height: 35vh;
+}
+.footer{
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.div5 h1{
+    font-size: 15px;
+    
+}
+.div1 li{
+    padding-top: 8px;
+   
+}
+.div2 li{
+    padding-top: 5px;
+}
+.div3 li{
+    padding-top: 8px;
+}
+.div4 li{
+    padding-top: 8px;
+}
+.div5 li{
+    padding-top: 8px;
+}
+
+
+
+.div1 li a{
+   color: #a2a2a2;
+  
+   
+}
+.div2 li a{
+    color: #a2a2a2;
+}
+.div3 li a{
+    color: #a2a2a2;
+}
+.div4 li a{
+    color: #a2a2a2;
+}
+.div5 h1{
+    color:#44d62c ;
+    font-size: 15px;
+}
+.ul-nav{
+    flex-wrap:wrap;
+}
+
+.div6 i{
+    color:#44d62c ;
+    padding-left: 15px;
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    justify-content: end;
+}
+.end{
+    display: flex;
+background: #0b0a0a;
+    
+}
+.end h6{
+    padding-left: 25px;
+    color: #a2a2a2;
+    padding-top: 15px;
+}
+.bottom{
+    background: #0b0a0a;
+}
+body{
+    background: #0b0a0a;
+}
+.card{
+    display: flex;
+    width: 400px !important;
+}
+
+
+
+
+@media only screen and (max-width: 1216px) {
+  .section1{
+    height:25vh;
+    
+   }
+   footer{
+    height: 50vh;
+   }
+  }
+
+
+  @media only screen and (max-width: 940px) {
+    .cards3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 35px;
+       
+    }
+    .card{
+        display: flex;
+        
+    }
+    .section4{
+        height: auto;
+
+    }
+
+}
